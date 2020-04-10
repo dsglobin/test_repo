@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Authentication log monitoring
 tail -n 0 -F /var/log/auth.log |
 while read LOG
 do
